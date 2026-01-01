@@ -12,3 +12,15 @@ for (let i = 0; i < cart.length; i++) {
 }
 
 console.log(totalValue);
+
+
+// Find the most expensive product
+let expensiveItem = cart[0];
+
+for (let i = 1; i < cart.length; i++) {
+  if (cart[i].price > expensiveItem.price) {
+    expensiveItem = cart[i];
+  }
+}
+
+console.log(expensiveItem);

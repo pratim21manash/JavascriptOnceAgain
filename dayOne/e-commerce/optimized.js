@@ -17,3 +17,12 @@ const totalValue = cart.reduce((sum, item) => {
 
 console.log(totalValue);
 
+
+// Find the most expensive product
+const expensiveItem = cart.reduce((max, item) => {
+  return item.price > max.price ? item : max;
+});
+
+console.log(expensiveItem);
+
+
