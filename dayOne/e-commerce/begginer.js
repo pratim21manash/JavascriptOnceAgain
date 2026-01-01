@@ -35,3 +35,14 @@ for (let i = 0; i < cart.length; i++) {
 }
 
 console.log(totalItems);
+
+
+// Convert the cart array into an object lookup by product name
+const cartLookup = {};
+
+for (let i = 0; i < cart.length; i++) {
+  cartLookup[cart[i].name] = cart[i];
+}
+
+console.log(cartLookup);
+

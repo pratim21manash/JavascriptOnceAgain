@@ -34,4 +34,11 @@ const totalItems = cart.reduce((count, item) => {
 console.log(totalItems);
 
 
+// Convert the cart array into an object lookup by product name
+const cartLookup = cart.reduce((acc, item) => {
+  acc[item.name] = item;
+  return acc;
+}, {});
+
+console.log(cartLookup);
 
