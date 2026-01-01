@@ -24,3 +24,14 @@ for (let i = 1; i < cart.length; i++) {
 }
 
 console.log(expensiveItem);
+
+
+
+// Count the total number of items in the cart
+let totalItems = 0;
+
+for (let i = 0; i < cart.length; i++) {
+  totalItems += cart[i].qty;
+}
+
+console.log(totalItems);

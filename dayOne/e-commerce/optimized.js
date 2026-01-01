@@ -26,3 +26,12 @@ const expensiveItem = cart.reduce((max, item) => {
 console.log(expensiveItem);
 
 
+// Count the total number of items in the cart
+const totalItems = cart.reduce((count, item) => {
+  return count + item.qty;
+}, 0);
+
+console.log(totalItems);
+
+
+
