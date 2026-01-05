@@ -17,7 +17,6 @@ for (let book of books) {
 
 console.log(longestBook);
 
-
 //using reduce method
 const mostlongestBook = books.reduce((max, book) =>
   book.pages > max.pages ? book : max
