@@ -1,0 +1,55 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+
+# =========================
+# Build folders
+# =========================
+dist/
+build/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Optional: React specific
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# Optional: Backend specific
+backend/node_modules/
+backend/dist/
